@@ -14,9 +14,9 @@ export const Service = (props: Props) => {
   return (
     <>
       <div className="py-[10%] h-full ">
-        <div className="bg-[#a9fcff] rounded-full w-[10vw] h-[10vw] content-center">
+        <div className="bg-[#a9fcff] rounded-full w-[10vw] h-[10vw] max-md:w-[40vw] max-md:h-[40vw] content-center">
           <div
-            className={` bg-[url('${props.Image}')] bg-contain bg-center bg-no-repeat rounded-3xl h-[5vw] object-cover `}
+            className={` bg-[url('${props.Image}')] bg-contain bg-center bg-no-repeat rounded-3xl h-full mx-[2vw] max-md:mx-[8vw] object-cover `}
           />
         </div>
         <div className="px-5 py-10">

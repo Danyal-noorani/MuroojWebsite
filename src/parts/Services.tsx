@@ -5,7 +5,9 @@ export const Services = () => {
       <div className="" id="services">
         <div className=" mx-[5%] py-[5%]   ">
           <div>
-            <h1 className="text-5xl font-serif ">WHAT WE DO?</h1>
+            <h1 className="text-[3vw] max-md:text-[9vw] max-md:text-center font-serif ">
+              WHAT WE DO?
+            </h1>
           </div>
           <div className="grid gap-[5%] gap-y-2 max-lg:grid-cols-2 max-sm:grid-cols-1 grid-cols-3">
             <Service

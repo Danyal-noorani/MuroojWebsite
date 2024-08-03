@@ -3,8 +3,10 @@ export const About = () => {
     <div className="bg-[#3e8cc82a]" id="about">
       <div className=" inline-flex my-12 ">
         <div className="w-[50%] mx-[5%] my-[5%]  ">
-          <h1 className="text-5xl  px-[2%] py-[2%] font-serif">WHO ARE WE?</h1>
-          <p className="px-[2%] py-[2%]">
+          <h1 className="text-[3vw] max-md:text-[8vw]  px-[2%] py-[2%] font-serif">
+            WHO ARE WE?
+          </h1>
+          <p className="px-[2%] py-[2%] max-md:text-[3vw]">
             Murooj Lubricants Tr. LLC established in the year 2018 with its
             Terminal & Office at SHARJAH (United Arab Emirates). Within a short
             span Murooj Lubricants has made its presence as one of the trusted

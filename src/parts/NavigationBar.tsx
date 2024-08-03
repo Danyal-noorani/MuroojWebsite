@@ -21,7 +21,7 @@ export const NavigationBar = () => {
         <img
           src="/Logo.png"
           alt=""
-          className="h-24 px-10 py-3 hover:scale-110 transition duration-500"
+          className="h-24 px-10 py-3 hover:scale-110 transition duration-500 object-contain w-full"
         />
         <h1 className="text-yellow-400 text-4xl max-xl:hidden italic content-center text-center hover:scale-125 transition duration-1000">
           <span className="text-[#66abff]">Murooj</span>Lubricants
